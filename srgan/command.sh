@@ -1,3 +1,5 @@
+## You need to pretrain the generator first to successfully Train SRGAN
+
 ### pretrain generator (SR module)
 python train.py --name srresnet-mse --content-loss mse --train-dir data
 
