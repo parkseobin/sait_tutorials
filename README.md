@@ -7,13 +7,13 @@ This was originally produced as a tutorial of <b>generative models and Meta-Lear
 
 - Download dataset
 
-```shell
+```console
 ~/se_tutorials$ sh download_dataset.sh
 ```
 
 - Create an anaconda environment
 
-```shell
+```console
 ~/se_tutorials$ conda create -n (env name)
 ~/se_tutorials$ conda activate (env name)
 (env name) ~/se_tutorials$ conda install --file requirements.txt
@@ -21,7 +21,7 @@ This was originally produced as a tutorial of <b>generative models and Meta-Lear
 
 - Run tutorials
 
-```shell
+```console
 (env name) ~/se_tutorials/(topic name)$ sh command.sh
 ```
 
